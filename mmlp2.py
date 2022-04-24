@@ -161,7 +161,7 @@ def numcloning():
     except (KeyError, IOError):
         print ("File Missing")
         time.sleep (2)
-        main()
+        numcloning()
     print ("")
     print ("\033[1;93m\n[*] Total Ids : " +str(len(ra)))
     print ("")
@@ -211,7 +211,7 @@ def numcloning():
     print (40*'-')
     print ('')
     input=(' Press Enter To Back ')
-    main_input()
+    main_apv()
 
 if __name__=='__main__':
     main_apv()
